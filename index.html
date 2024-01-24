@@ -47,7 +47,7 @@
           <div class="flex items-center gap-5">
             <i class="fa-solid fa-magnifying-glass"></i>
             <button
-              class="btn btn-primary bg-red-600 text-white font-semibold font-semibold text-center text-[20px]"
+              class="btn bg-red-600 text-white font-medium text-center text-xl"
             >
               Get Ticket
             </button>
@@ -57,11 +57,12 @@
 
       <!-- slider -->
       <div class="container mx-auto mt-14">
-        <div class="carousel">
+        <div class="carousel relative"> 
+            
           <div id="slide1" class="carousel-item relative w-full">
             <img src="./Images/1.png" class="w-full" />
             <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 bottom-5"
             >
               <a href="#slide4" class="btn btn-circle">❮</a>
               <a href="#slide2" class="btn btn-circle">❯</a>
@@ -70,12 +71,16 @@
           <div id="slide2" class="carousel-item relative w-full">
             <img src="./Images/1.png" class="w-full" />
             <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 bottom-5"
             >
               <a href="#slide1" class="btn btn-circle">❮</a>
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
           </div>
+          <div class="absolute bg-black text-white p-5 rounded-lg bottom-6 right-6">
+            <h2 class="text-xl">Meet all the heroes from the field</h2>
+            <p class="lg:w-[502px] text-slate-400 mt-3">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
         </div>
       </div>
 
@@ -97,20 +102,12 @@
       <section class="container mx-auto mt-10">
         <div class="flex justify-around">
           <div class="text-center">
-            <h1
-              class="rounded-full border-[15px] inline-block text-3xl font-semibold border-red-700 p-8"
-            >
-              87%
-            </h1>
+            <div class="radial-progress text-red-600 font-extrabold text-2xl" style="--value:87;" role="progressbar">87%</div>
             <h3 class="text-2xl mt-2 mb-3">Prayer Facility</h3>
             <p>Amet consectetur. Condimentum <br />dignissim adipiscing .</p>
           </div>
           <div class="text-center">
-            <h1
-              class="rounded-full border-[15px] inline-block text-3xl font-semibold border-red-700 p-8"
-            >
-              87%
-            </h1>
+            <div class="radial-progress text-pink-600 font-extrabold text-2xl" style="--value:95;" role="progressbar">95%</div>
             <h3 class="text-2xl mt-2 mb-3">Prayer Facility</h3>
             <p>
               Amet consectetur. Condimentum<br />
@@ -118,11 +115,7 @@
             </p>
           </div>
           <div class="text-center">
-            <h1
-              class="rounded-full border-[15px] inline-block text-3xl font-semibold border-red-700 p-8"
-            >
-              87%
-            </h1>
+            <div class="radial-progress text-amber-600 font-extrabold text-2xl" style="--value:90;" role="progressbar">90%</div>
             <h3 class="text-2xl mt-2 mb-3">Prayer Facility</h3>
             <p>
               Amet consectetur. Condimentum<br />
@@ -130,11 +123,7 @@
             </p>
           </div>
           <div class="text-center">
-            <h1
-              class="rounded-full border-[15px] inline-block text-3xl font-semibold border-red-700 p-8"
-            >
-              87%
-            </h1>
+            <div class="radial-progress text-blue-600 font-extrabold text-2xl" style="--value:80;" role="progressbar">80%</div>
             <h3 class="text-2xl mt-2 mb-3">Prayer Facility</h3>
             <p>
               Amet consectetur. Condimentum<br />
@@ -189,7 +178,7 @@
                 elit enim sagittis turpis in magna. Id et sed euismod natoque
                 amet nunc morbi nulla. Tortor congue sed et in.
               </p>
-              <button class="btn btn-primary bg-red-500 text-white">
+              <button class="btn bg-red-500 text-white">
                 Register Now
               </button>
             </div>
@@ -205,7 +194,7 @@
                 elit enim sagittis turpis in magna. Id et sed euismod natoque
                 amet nunc morbi nulla. Tortor congue sed et in.
               </p>
-              <button class="btn btn-primary bg-red-500 text-white">
+              <button class="btn bg-red-500 text-white">
                 Register Now
               </button>
             </div>
@@ -223,7 +212,7 @@
                 elit enim sagittis turpis in magna. Id et sed euismod natoque
                 amet nunc morbi nulla. Tortor congue sed et in.
               </p>
-              <button class="btn btn-primary bg-red-500 text-white">
+              <button class="btn bg-red-500 text-white">
                 Register Now
               </button>
             </div>
@@ -256,9 +245,9 @@
             </figure>
             <div class="card-body">
               <div class="flex items-center space-x-5">
-                <div><i class="fa-solid fa-star"></i>5.0</div>
-                <div><i class="fa-solid fa-eye"></i>20</div>
-                <div><i class="fa-regular fa-heart"></i>200</div>
+                <div><i class="fa-solid fa-star pr-2"></i>5.0</div>
+                <div><i class="fa-solid fa-eye pr-2"></i>20</div>
+                <div><i class="fa-regular fa-heart pr-2"></i>200</div>
               </div>
               <h2 class="card-title">World Cup Flags Football</h2>
               <p>Click the button to watch on Jetflix app.</p>
@@ -282,9 +271,9 @@
             </figure>
             <div class="card-body">
               <div class="flex items-center space-x-5">
-                <div><i class="fa-solid fa-star"></i>5.0</div>
-                <div><i class="fa-solid fa-eye"></i>20</div>
-                <div><i class="fa-regular fa-heart"></i>200</div>
+                <div><i class="fa-solid fa-star pr-2"></i>5.0</div>
+                <div><i class="fa-solid fa-eye pr-2"></i>20</div>
+                <div><i class="fa-regular fa-heart pr-2"></i>200</div>
               </div>
               <h2 class="card-title">World Cup Flags Football</h2>
               <p>Click the button to watch on Jetflix app.</p>
@@ -308,9 +297,9 @@
             </figure>
             <div class="card-body">
               <div class="flex items-center space-x-5">
-                <div><i class="fa-solid fa-star"></i>5.0</div>
-                <div><i class="fa-solid fa-eye"></i>20</div>
-                <div><i class="fa-regular fa-heart"></i>200</div>
+                <div><i class="fa-solid fa-star pr-2"></i>5.0</div>
+                <div><i class="fa-solid fa-eye pr-2"></i>20</div>
+                <div><i class="fa-regular fa-heart pr-2"></i>200</div>
               </div>
               <h2 class="card-title">World Cup Flags Football</h2>
               <p>Click the button to watch on Jetflix app.</p>
@@ -334,9 +323,9 @@
             </figure>
             <div class="card-body">
               <div class="flex items-center space-x-5">
-                <div><i class="fa-solid fa-star"></i>5.0</div>
-                <div><i class="fa-solid fa-eye"></i>20</div>
-                <div><i class="fa-regular fa-heart"></i>200</div>
+                <div><i class="fa-solid fa-star pr-2"></i>5.0</div>
+                <div><i class="fa-solid fa-eye pr-2"></i>20</div>
+                <div><i class="fa-regular fa-heart pr-2"></i>200</div>
               </div>
               <h2 class="card-title">World Cup Flags Football</h2>
               <p>Click the button to watch on Jetflix app.</p>
@@ -360,9 +349,9 @@
             </figure>
             <div class="card-body">
               <div class="flex items-center space-x-5">
-                <div><i class="fa-solid fa-star"></i>5.0</div>
-                <div><i class="fa-solid fa-eye"></i>20</div>
-                <div><i class="fa-regular fa-heart"></i>200</div>
+                <div><i class="fa-solid fa-star pr-2"></i>5.0</div>
+                <div><i class="fa-solid fa-eye pr-2"></i>20</div>
+                <div><i class="fa-regular fa-heart pr-2"></i>200</div>
               </div>
               <h2 class="card-title">World Cup Flags Football</h2>
               <p>Click the button to watch on Jetflix app.</p>
@@ -386,9 +375,9 @@
             </figure>
             <div class="card-body">
               <div class="flex items-center space-x-5">
-                <div><i class="fa-solid fa-star"></i>5.0</div>
-                <div><i class="fa-solid fa-eye"></i>20</div>
-                <div><i class="fa-regular fa-heart"></i>200</div>
+                <div><i class="fa-solid fa-star pr-2"></i>5.0</div>
+                <div><i class="fa-solid fa-eye pr-2"></i>20</div>
+                <div><i class="fa-regular fa-heart pr-2"></i>200</div>
               </div>
               <h2 class="card-title">World Cup Flags Football</h2>
               <p>Click the button to watch on Jetflix app.</p>
@@ -425,6 +414,95 @@
         </div>
       </section>
 
+      <!-- accordian -->
+
+      <section class="container mx-auto">
+        <div class="">
+          <div class="card card-side bg-base-100 shadow-xl">
+            <figure class="p-6">
+              <img src="./Images/11.png" alt="Movie" />
+            </figure>
+            <div class="card-body">
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  Our Equipment
+                </div>
+                <div class="collapse-content">
+                  <p class="lg:w-[518px]">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                    elit enim sagittis turpis in magna.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                  Hockey Training
+                </div>
+                <div class="collapse-content">
+                  <p class="lg:w-[518px]">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                    elit enim sagittis turpis in magna.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                  Private Lessons
+                </div>
+                <div class="collapse-content">
+                  <p class="lg:w-[518px]">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                    elit enim sagittis turpis in magna.
+                  </p>
+                </div>
+              </div>
+
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  Ski Touring
+                </div>
+                <div class="collapse-content">
+                  <p class="lg:w-[518px]">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                    elit enim sagittis turpis in magna.
+                  </p>
+                </div>
+              </div>
+
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  Booking
+                </div>
+                <div class="collapse-content">
+                  <p class="lg:w-[518px]">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                    elit enim sagittis turpis in magna.
+                  </p>
+                </div>
+              </div>
+
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  Pricing
+                </div>
+                <div class="collapse-content">
+                  <p class="lg:w-[518px]">
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                    elit enim sagittis turpis in magna.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- get in touch -->
       <section>
         <div class="container mx-auto mt-32">
@@ -438,18 +516,133 @@
           </div>
         </div>
       </section>
+
+<!-- input section -->
+
+      <section class="container mx-auto mt-12">
+
+        <div class="flex items-center justify-center gap-6">
+            <div class="grid grid-cols-1 gap-6 p-6">
+                <div class="card w-96 bg-[#bced6d1a]">
+                   <div class="relative p-10">
+                    <figure class="absolute">
+                        <img src="./Images/Group 1171275317.png" alt="" srcset="">
+                    </figure>
+                   </div>
+                    <div class="card-body">
+                      <h2 class="card-title text-base">Phone Number</h2>
+                      <p class="font-bold text-xl">(+62) 123-321-543</p>
+                      
+                    </div>
+                  </div>
+                <div class="card w-96 bg-[#bced6d1a]">
+                   <div class="relative p-10">
+                    <figure class="absolute">
+                        <img src="./Images/Group 1171275318.png" alt="" srcset="">
+                    </figure>
+                   </div>
+                    <div class="card-body">
+                      <h2 class="card-title text-base">Email</h2>
+                      <p class="font-bold text-xl">hockeys@support.com</p>
+                      
+                    </div>
+                  </div>
+                <div class="card w-96 bg-[#629cf31a]">
+                   <div class="relative p-10">
+                    <figure class="absolute">
+                        <img src="./Images/Group 1171275321.png" alt="" srcset="">
+                    </figure>
+                   </div>
+                    <div class="card-body">
+                      <h2 class="card-title text-base">Location</h2>
+                      <p class="font-bold text-xl">152/1 Mohakhali Wireless Gate</p>
+                      
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="flex flex-col justify-between">
+                <div class="grid lg:grid-cols-2">
+                    <div>
+                        <h2 class="pb-2 font-bold">Your Name</h2>
+                        <input type="text" placeholder="Enter Your Full Name" class="input input-bordered input-accent w-full max-w-xs bg-[#4c4c6493]" />
+                    </div>
+                    <div>
+                        <h2 class="pb-2 font-bold">Your Email</h2>
+                        <input type="text" placeholder="Enter Your Email" class="input input-bordered input-accent w-full max-w-xs bg-[#58587969]" />
+                    </div>
+                    <div>
+                        <h2 class="pb-2 mt-2 font-bold">Subject</h2>
+                        <input type="text" placeholder="Enter Your Subject" class="input input-bordered input-accent w-full max-w-xs bg-[#2b2b382f]" />
+                    </div>
+                    <div>
+                        <h2 class="pb-2 mt-2 font-bold">Phone Number</h2>
+                        <input type="text" placeholder="Enter Your Phone Number" class="input input-bordered input-accent w-full max-w-xs bg-[#13131808]" />
+                    </div>
+                </div>
+                <div>
+                    <h2 class="pb-3 mt-3 font-bold">Message</h2>
+                    <textarea class="textarea textarea-secondary lg:w-[672px] lg:h-[370px] bg-[#13131808]" placeholder="Write your Message"></textarea>
+                </div>
+                <div class="mt-8">
+                    <button class="btn bg-red-600 text-white lg:w-[672px]">Send Message</button>
+                </div>
+    
+    
+            </div>
+        </div>
+
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+      <section class="container mx-auto mt-6">
+        <div class="grid grid-cols-1 gap-7 text-center bg-[#13131808]">
+            <div>
+                <h3 class="text-xl font-bold">Social Media</h3>
+            </div>
+            <div class="flex gap-4 text-3xl justify-center">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
 
-    <footer class="footer p-16 bg-[#131318] text-white mt-24">
+    <footer class="footer p-16 bg-[#131318] mt-24">
       <div>
         <div class="space-y-3">
-          <h1 class="text-3xl">Get In Touch</h1>
+          <h1 class="text-2xl font-bold text-white">Get In Touch</h1>
           <p class="w-[346px]">
             Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat
             dolor. Purus urna in sit nullam proin.
           </p>
-          <p>hockeys@support.com</p>
-          <p>(+62) 123-321-543</p>
+          <p><i class="fa-regular fa-envelope text-red-500 pr-3"></i>hockeys@support.com</p>
+          <p><i class="fa-solid fa-phone text-red-600 pr-3"></i>(+880) 1738-638-290</p>
         </div>
       </div>
       <nav>
@@ -460,14 +653,14 @@
         <a class="link link-hover">Advertisement</a>
       </nav>
       <nav>
-        <header class="footer-title">Company</header>
+        <header class="footer-title text-white">Company</header>
         <a class="link link-hover">About us</a>
         <a class="link link-hover">Contact</a>
         <a class="link link-hover">Jobs</a>
         <a class="link link-hover">Press kit</a>
       </nav>
       <nav>
-        <header class="footer-title">Legal</header>
+        <header class="footer-title text-white">Support</header>
         <a class="link link-hover">Terms of use</a>
         <a class="link link-hover">Privacy policy</a>
         <a class="link link-hover">Cookie policy</a>
